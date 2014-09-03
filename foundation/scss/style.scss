@@ -1,41 +1,67 @@
+/*
+Theme Name: _s
+Theme URI: http://underscores.me/
+Author: Automattic
+Author URI: http://automattic.com/
+Description: Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Version: 1.0-wpcom
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: _s
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ _s is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+
 @import "settings";
-//@import "normalize";
+
+//@import "foundation";
 
 // Or selectively include components
 // @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-@import "foundation/components/global";
+//@import "foundation/components/accordion";
+//@import "foundation/components/alert-boxes";
+//@import "foundation/components/block-grid";
+//@import "foundation/components/breadcrumbs";
+//@import "foundation/components/button-groups";
+//@import "foundation/components/buttons";
+//@import "foundation/components/clearing";
+//@import "foundation/components/dropdown";
+//@import "foundation/components/dropdown-buttons";
+//@import "foundation/components/flex-video";
+//@import "foundation/components/forms";
 @import "foundation/components/grid";
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switch",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
+//@import "foundation/components/inline-lists";
+//@import "foundation/components/joyride";
+//@import "foundation/components/keystrokes";
+//@import "foundation/components/labels";
+//@import "foundation/components/magellan";
+//@import "foundation/components/orbit";
+//@import "foundation/components/pagination";
+//@import "foundation/components/panels";
+//@import "foundation/components/pricing-tables";
+//@import "foundation/components/progress-bars";
+//@import "foundation/components/reveal";
+//@import "foundation/components/side-nav";
+//@import "foundation/components/split-buttons";
+//@import "foundation/components/sub-nav";
+//@import "foundation/components/switch";
+//@import "foundation/components/tables";
+//@import "foundation/components/tabs";
+//@import "foundation/components/thumbs";
+//@import "foundation/components/tooltips";
+@import "foundation/components/top-bar";
+@import "foundation/components/type";
+//@import "foundation/components/offcanvas";
+//@import "foundation/components/visibility";
+
+@import "underscores/underscores";
